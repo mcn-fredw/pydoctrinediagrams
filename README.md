@@ -4,7 +4,7 @@ Generates relational diagrams from doctrine metadata yml files.
 
 ## Usage
 
-        python3 -m pip install
+        python3 -m pip install git+https://github.com/mcn-fredw/pydoctrinediagrams.git
         
         commands to generate yml metadata files
 
