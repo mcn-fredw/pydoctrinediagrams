@@ -1,8 +1,7 @@
 """
+@package pydoctrinediagrams
+
 Builds svg diagram for database structure.
-
-id and discriminator columns are not in fields
-
 """
 from typing import NoReturn
 import os

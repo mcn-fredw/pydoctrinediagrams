@@ -8,7 +8,7 @@ import sys
 import logging
 import pydot
 import argparse
-from entitynode import EntityNode
+from pydoctrinediagrams.entitynode import EntityNode
 
 if __name__ == '__main__':
     _p = argparse.ArgumentParser(description='Generates database diagram.')
