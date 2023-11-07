@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pydocttrinediagrams"
+version = "1.0.0"
+authors = [
+  { name="Fred Woods", email="fred.woods.se@gmail.com" },
+]
+description='Generates relational diagrams from doctrine metadata yml files.'
+requires-python = ">=3.10"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    'pydot',
+    'ruamel.yaml'
+]
